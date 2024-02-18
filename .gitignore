@@ -1,0 +1,12 @@
+# environments
+env/
+
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+.vscode
+*log
+*.env
+*.sqlite3
