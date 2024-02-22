@@ -6,7 +6,7 @@ from phonenumber_field.modelfields import PhoneNumberField
 
 class RegisterForm(UserCreationForm):
     email = forms.EmailField()
-    # phone = PhoneNumberField(null=False, blank=False, unique=True)
+    phone = PhoneNumberField(null=False, blank=False, unique=True)
     # can add fields here dpends on the requirements
     
     class Meta:
